@@ -1,0 +1,24 @@
+name: broadcast_receiver
+description: A new flutter plugin project.
+version: 0.0.1
+author: Jvhaile
+homepage: https://github.com/jayvhaile/flutter_broadcast_receiver
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.jvhaile.broadcast_receiver
+        pluginClass: BroadcastReceiverPlugin
+
+
